@@ -1,0 +1,62 @@
+body{
+	background: #aaa;
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+}
+#main{
+	display: flex;
+	justify-content: center;
+	width: 600px;
+	height: 380px;
+	flex-wrap: wrap;
+	background: #3db1bb;
+	box-shadow: 0px 3px 4px 3px #0002;
+	position: relative;
+}
+#title{
+	width: 100%;
+	height: 120px;
+	margin-top: 20px;
+	text-align: center;
+}
+#buttons{
+	height: 100px;
+	margin-top: 60px;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+#buttons div{
+	height: 35px;
+	width: 20%;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 5px;
+	color: whitesmoke;
+	cursor: pointer;
+	background: #bb463d;
+	transition-duration: 100ms;
+}
+#buttons div:hover{
+	box-shadow: 0px 2px 2px 2px #0004;
+}
+#timer{
+	position: absolute;
+	height: 30px;
+	width: 100px;
+	top: 150px;
+	font-size: 25px;
+}
+#lap_comment{
+	height: 40px;
+	width: 520px;
+	position: absolute;
+	top: 200px;
+	overflow: hidden;
+	display: flex;
+}
+#lap_comment p{
+	text-indent: 20px;
+	font-weight: 600;
+}
